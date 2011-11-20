@@ -8,3 +8,7 @@ colors solarized
 
 " \x -> close current buffer
 map <Leader>x :bd<CR>
+
+set expandtab
+set tabstop=2
+set shiftwidth=2
