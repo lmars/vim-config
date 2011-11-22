@@ -9,6 +9,8 @@ colors solarized
 " \x -> close current buffer
 map <Leader>x :bd<CR>
 
+set smartindent
+set autoindent
 set expandtab
 set tabstop=2
 set shiftwidth=2
