@@ -29,3 +29,5 @@ map <silent> <leader>x :bd<CR>
 " show whitespace with <leader>s
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
+
+let g:ackhighlight=1
