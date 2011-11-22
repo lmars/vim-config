@@ -6,6 +6,8 @@ syntax enable
 set background=dark
 colors solarized
 
+let mapleader=','
+
 " \x -> close current buffer
 map <Leader>x :bd<CR>
 
