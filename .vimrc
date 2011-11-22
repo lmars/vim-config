@@ -9,7 +9,7 @@ colors solarized
 let mapleader=','
 
 " \x -> close current buffer
-map <Leader>x :bd<CR>
+map <silent> <leader>x :bd<CR>
 
 set smartindent
 set autoindent
