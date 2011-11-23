@@ -31,3 +31,6 @@ set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
 
 let g:ackhighlight=1
+
+" make the checksyntax plugin automatically check ruby syntax after save
+let g:checksyntax={'ruby': {'cmd': 'ruby -c', 'okrx': 'Syntax OK', 'auto': 1}}
