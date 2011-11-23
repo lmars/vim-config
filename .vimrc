@@ -31,6 +31,9 @@ map <silent> <leader>x :bd<CR>
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
 
+" switch to previous buffer with <leader>a
+map <silent> <leader>a :b#<CR>
+
 let g:ackhighlight=1
 
 " make the checksyntax plugin automatically check ruby syntax after save
