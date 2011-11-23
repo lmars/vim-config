@@ -18,6 +18,7 @@ set hidden
 set history=1000
 set laststatus=2
 set statusline=PWD:\ \%{getcwd()}\ %t
+set clipboard=unnamed
 
 filetype on
 filetype plugin on
