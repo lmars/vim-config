@@ -19,6 +19,7 @@ set history=1000
 set laststatus=2
 set statusline=PWD:\ \%{getcwd()}\ %t
 set clipboard=unnamed
+set autoread
 
 filetype on
 filetype plugin on
