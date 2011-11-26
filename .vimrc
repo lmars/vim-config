@@ -38,6 +38,9 @@ nmap <silent> <leader>s :set nolist!<CR>
 " switch to previous buffer with <leader>a
 map <silent> <leader>a :b#<CR>
 
+" set lines=40 with <leader>l
+map <silent> <leader>l :set lines=40<CR>
+
 let g:ackhighlight=1
 
 " make the checksyntax plugin automatically check ruby syntax after save
