@@ -3,8 +3,7 @@ call pathogen#infect()
 let g:CommandTAlwaysShowDotFiles=1
 
 syntax enable
-set background=dark
-colors solarized
+colors blackboard
 
 let mapleader=','
 
